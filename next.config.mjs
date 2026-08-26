@@ -4,6 +4,12 @@ import { imageHosts } from './image-hosts.config.mjs';
 const nextConfig = {
   output: 'export',
 
+  // GitHub Pages project repository
+  basePath: '/ncrit',
+  assetPrefix: '/ncrit/',
+
+  trailingSlash: true,
+
   productionBrowserSourceMaps: true,
 
   typescript: {
